@@ -3,7 +3,7 @@
 <head>
 <title>Persenning Manufaktur Berlin - seit 1974</title>
 
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=ABQIAAAAD7Xuyyq7viUCbAkL_FaKkBQIw6LrHAgbPo0Vl4gjSsA3I-WoexTBQUib5VxiOGsqY03o2tq-JzYAxw&callback=initMap">
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC9LXDonlJscAykhDmgbEyYXMrkf8l3WQ&callback=initMap">
   </script>
 <!--><script src="//maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAD7Xuyyq7viUCbAkL_FaKkBQIw6LrHAgbPo0Vl4gjSsA3I-WoexTBQUib5VxiOGsqY03o2tq-JzYAxw" type="text/javascript"></script>-->
 <script type="text/javascript">
@@ -117,6 +117,9 @@ a:hover {
 	JSFX.Rollover("b4", "nav05_16_over.gif");
 
     //<![CDATA[
+      function initMap() {
+        console.log("INIT");
+      }
 
     function load() {
       if (GBrowserIsCompatible()) {
